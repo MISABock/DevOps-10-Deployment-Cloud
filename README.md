@@ -39,6 +39,20 @@ Auch die Azure Credentials musste ich an Github übergeben, damit dieser Zugriff
 Nach einigen Konfigurationen hat das dann funktioniert: 
 (![DevOpsPipelineSuccess](images/DevOpsPipelineSuccess.png))
 
+Hier ist das neue Image im Docker-Hub ersichtlich: 
+(![DockerHubImage](images/DockerHubImage.png))
+
+hier die Logs zum Pull und Push: (![AzureDeploymentLogs](AzureDeploymentLogs.txt))
+hier die Logs zum Azure Deployement: (![LogsPipelinePullAndPush](LogsPipelinePullAndPush.txt))
+
+So sieht das Aktivitätsprotokoll auf Azure aus: 
+(![AzureProtocol](images/AzureProtocol.png))
+
+
+
+
+
+
 
 
 

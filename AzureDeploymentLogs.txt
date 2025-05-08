@@ -1,0 +1,36 @@
+2025-05-08T09:53:51.7610017Z Current runner version: '2.323.0'
+2025-05-08T09:53:51.7648717Z ##[group]Operating System
+2025-05-08T09:53:51.7650274Z Ubuntu
+2025-05-08T09:53:51.7651128Z 24.04.2
+2025-05-08T09:53:51.7652120Z LTS
+2025-05-08T09:53:51.7652939Z ##[endgroup]
+2025-05-08T09:53:51.7653854Z ##[group]Runner Image
+2025-05-08T09:53:51.7655013Z Image: ubuntu-24.04
+2025-05-08T09:53:51.7655813Z Version: 20250504.1.0
+2025-05-08T09:53:51.7657864Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250504.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-05-08T09:53:51.7660522Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250504.1
+2025-05-08T09:53:51.7662210Z ##[endgroup]
+2025-05-08T09:53:51.7663202Z ##[group]Runner Image Provisioner
+2025-05-08T09:53:51.7664400Z 2.0.422.1
+2025-05-08T09:53:51.7665222Z ##[endgroup]
+2025-05-08T09:53:51.7666800Z ##[group]GITHUB_TOKEN Permissions
+2025-05-08T09:53:51.7670005Z Metadata: read
+2025-05-08T09:53:51.7670851Z ##[endgroup]
+2025-05-08T09:53:51.7674297Z Secret source: Actions
+2025-05-08T09:53:51.7675869Z Prepare workflow directory
+2025-05-08T09:53:51.8065950Z Prepare all required actions
+2025-05-08T09:53:51.8108936Z Getting action download info
+2025-05-08T09:53:52.3189987Z Download action repository 'azure/webapps-deploy@v2' (SHA:4bfb30bef2c330e36be280cb1e5726d0fac06233)
+2025-05-08T09:53:54.3120591Z Complete job name: azure-deploy
+2025-05-08T09:53:54.3952353Z ##[group]Run azure/webapps-deploy@v2
+2025-05-08T09:53:54.3953064Z with:
+2025-05-08T09:53:54.3959576Z   publish-profile: ***
+2025-05-08T09:53:54.3959987Z   images: michaelmisa/node-web-app:1a6992accbc5ad3c4053c93269d77260e78ff11f
+2025-05-08T09:53:54.3960394Z   slot-name: production
+2025-05-08T09:53:54.3960635Z   package: .
+2025-05-08T09:53:54.3961168Z ##[endgroup]
+2025-05-08T09:53:56.2838154Z Deploying image michaelmisa/node-web-app:1a6992accbc5ad3c4053c93269d77260e78ff11f to App Service 
+2025-05-08T09:53:56.4145284Z Successfully deployed image to App Service.
+2025-05-08T09:53:57.9293331Z Successfully updated deployment History at https://devops-bockmic1-container.scm.azurewebsites.net/api/deployments/1a6992accbc5ad3c4053c93269d77260e78ff11f1746698036414
+2025-05-08T09:53:57.9296034Z App Service Application URL: http://devops-bockmic1-container.azurewebsites.net
+2025-05-08T09:53:57.9477883Z Cleaning up orphan processes
