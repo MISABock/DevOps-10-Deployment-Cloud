@@ -24,3 +24,14 @@ Als nächstes habe ich die Applikation in einem Web-App-Container gestartet:
 Hier die Logs:
 (![AzureContainerLogs](images/AzureContainerLogs.png))
 
+Ich habe die Devops Pipeline für mein Projekt gestartet und gesehen, dass ich zuerst die Tokens für den Docker-Hub Zugang erfassen muss 
+(![noToken](images/noToken.png))
+
+Das habe ich dann hier erstellt: 
+(![CredentialsDockerHub](images/CredentialsDockerHub.png))
+
+Als weiteres die Docker-Build.yaml Datei hinzugefügt: 
+(![Docker-BuildYaml](images/Docker-BuildYaml.png))
+
+
+
