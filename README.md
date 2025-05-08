@@ -36,4 +36,9 @@ Als weiteres die Docker-Build.yaml Datei hinzugefügt:
 Auch die Azure Credentials musste ich an Github übergeben, damit dieser Zugriff auf das Azure Projekt hat: 
 (![AzureCredentials](images/AzureCredentials.png))
 
+Nach einigen Konfigurationen hat das dann funktioniert: 
+(![DevOpsPipelineSuccess](images/DevOpsPipelineSuccess.png))
+
+
+
 
