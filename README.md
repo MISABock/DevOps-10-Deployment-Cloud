@@ -33,5 +33,7 @@ Das habe ich dann hier erstellt:
 Als weiteres die Docker-Build.yaml Datei hinzugefügt: 
 (![Docker-BuildYaml](images/Docker-BuildYaml.png))
 
+Auch die Azure Credentials musste ich an Github übergeben, damit dieser Zugriff auf das Azure Projekt hat: 
+(![AzureCredentials](images/AzureCredentials.png))
 
 
